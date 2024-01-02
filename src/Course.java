@@ -20,7 +20,7 @@ public class Course {
 		System.out.println("Veuillez indiquer le nombre de chevaux dans la course (12 - 20) :");
 		
 		// On assigne le nombre de chevaux à la variable numberHorses :
-		numberHorses = scanner.nextInt();
+		numberHorses = Verification.verificationNumberHorses(scanner);
 		
 		System.out.println("Choix de l'utilisateur :" + userChoice + " - Nombre de chevaux :" + numberHorses);
 		scanner.close();
