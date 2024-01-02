@@ -14,8 +14,8 @@ public class Course {
 		System.out.println("3 - Quinté");
 		System.out.println("4 - Quittez l'application");
 		
-		// On assigne le choix de l'utilisateur à la variable userChoice :
-		userChoice = scanner.nextInt();
+		// On assigne la valeur de retour de la méthode verificationUserChoice à la variable userChoice :
+		userChoice = Verification.verificationUserChoice(scanner);
 		
 		System.out.println("Veuillez indiquer le nombre de chevaux dans la course (12 - 20) :");
 		
