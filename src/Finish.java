@@ -78,7 +78,6 @@ public class Finish {
 	public static void playAgain(Scanner scanner) {
 		System.out.println();
 		System.out.print("Voulez - vous rejouer ? (Oui/Non) : ");
-		System.out.println("-----------------------------------------------------------------");
 		String userChoice = scanner.next();
 		if(userChoice.equals("Oui") || userChoice.equals("oui")) {
 			Course.main(null);
