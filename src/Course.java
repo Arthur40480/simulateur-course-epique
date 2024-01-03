@@ -17,6 +17,12 @@ public class Course {
 		// On assigne la valeur de retour de la méthode verificationUserChoice à la variable userChoice :
 		userChoice = Verification.verificationUserChoice(scanner);
 		
+		// Si le choix de l'utilisateur est 4, alors on stop le programme :
+		if(userChoice == 4) {
+			System.out.println("A bientôt !");
+			System.exit(0);
+		}
+		
 		System.out.println("Veuillez indiquer le nombre de chevaux dans la course (12 - 20) :");
 		
 		// On assigne le nombre de chevaux à la variable numberHorses :
