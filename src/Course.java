@@ -23,6 +23,7 @@ public class Course {
 		numberHorses = Verification.verificationNumberHorses(scanner);
 		
 		System.out.println("Choix de l'utilisateur :" + userChoice + " - Nombre de chevaux :" + numberHorses);
+		Finish.raceResults();
 		scanner.close();
 
 	}
