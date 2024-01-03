@@ -43,8 +43,11 @@ public class Finish {
 		}
 		return false;
 	}
+	
 	// Méthode permettant d'afficher le resultat :
 	public static void displayResult(int[] horseNumberList, int typeOfRace, int numberHorses) {
+		System.out.println();
+		System.out.println("*****************************************************************");
 		switch (typeOfRace) {
 		case 1: 
 			System.out.println("Tiercé d'une course comportant " + numberHorses + " chevaux :");
@@ -65,5 +68,7 @@ public class Finish {
 				System.out.print(" - ");
 			}
 		}
+		System.out.println();
+		System.out.println("*****************************************************************");
 	}
 }
