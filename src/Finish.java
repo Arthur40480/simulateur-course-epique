@@ -1,8 +1,9 @@
 import java.util.Random; 
+import java.util.Scanner;
 
 public class Finish {
 	
-	public static void raceResults(int typeOfRace, int numberHorses) {
+	public static void raceResults(int typeOfRace, int numberHorses, Scanner scanner) {
 		// La classe Random est utilisé pour générer des nombres aléatoires :
 		Random random = new Random();
 		int numberArrivals;
@@ -31,6 +32,7 @@ public class Finish {
 		}
 		
 		displayResult(listResult, typeOfRace, numberHorses);
+		playAgain(scanner);
 
 	}
 	
@@ -70,5 +72,19 @@ public class Finish {
 		}
 		System.out.println();
 		System.out.println("*****************************************************************");
+	}
+	
+	// Méthode permettant de rejouer si l'utilisateur le désire :
+	public static void playAgain(Scanner scanner) {
+		System.out.println();
+		System.out.print("Voulez - vous rejouer ? (Oui/Non) : ");
+		System.out.println("-----------------------------------------------------------------");
+		String userChoice = scanner.next();
+		if(userChoice.equals("Oui") || userChoice.equals("oui")) {
+			Course.main(null);
+		}else {
+			System.out.println("A bientôt !");
+			System.exit(0);
+		}
 	}
 }

@@ -31,7 +31,7 @@ public class Course {
 		// On assigne le nombre de chevaux à la variable numberHorses :
 		numberHorses = Verification.verificationNumberHorses(scanner);
 		
-		Finish.raceResults(userChoice, numberHorses);
+		Finish.raceResults(userChoice, numberHorses, scanner);
 		scanner.close();
 
 	}
