@@ -5,10 +5,12 @@ Bienvenue dans la Simulation de Course de Chevaux en Java ! Cette application en
 ### Fonctionnalités
 
 __Interface Utilisateur :__ Le programme invite l'utilisateur à saisir le nombre de chevaux et à sélectionner le type de course en boucle jusqu'à ce que l'utilisateur décide de quitter.  
+
 __Type de Course :__  
-    __Tiercé :__ Affichage des trois premiers chevaux dans le bon ordre d'arrivée.  
-    __Quarté :__ Affichage des quatre premiers chevaux dans le bon ordre d'arrivée.  
-    __Quinté :__ Affichage des cinq premiers chevaux dans le bon ordre d'arrivée.    
+   * __Tiercé :__ Affichage des trois premiers chevaux dans le bon ordre d'arrivée.
+   * __Quarté :__ Affichage des quatre premiers chevaux dans le bon ordre d'arrivée.
+   * __Quinté :__ Affichage des cinq premiers chevaux dans le bon ordre d'arrivée.
+     
 __Simulation de Course :__ Le programme simule la course et affiche les résultats en fonction du type de course sélectionné.    
 
 ### Comment Utiliser
