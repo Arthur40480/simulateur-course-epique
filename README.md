@@ -18,8 +18,9 @@ __Simulation de Course :__ Le programme simule la course et affiche les résulta
 2. Cloner le depo
 3. Importer le projet dans votre IDE
 4. Exécutez le programme
-     - Saisissez le nombre de chevaux (entre 12 et 20)
-     - Choisissez le type de course (tiercé, quarté, quinté)
-     - Observez la simulation de la course et découvrez les résultats
+   
+     * Saisissez le nombre de chevaux (entre 12 et 20)
+     * Choisissez le type de course (tiercé, quarté, quinté)
+     * Observez la simulation de la course et découvrez les résultats
 
 ### Amusez-vous bien ! 🏇
